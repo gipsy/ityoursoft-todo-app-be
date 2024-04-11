@@ -5,7 +5,7 @@ import { Status } from "../todo.entity"
 export class TodoDto {
   @IsString()
   @IsOptional()
-  name: string
+  title: string
 
   @IsString()
   @IsOptional()
